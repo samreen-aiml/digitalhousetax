@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+}
+
+header {
+    background: #174a7e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 750px;
+    margin: 25px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #cccccc;
+}
+
+h2 {
+    color: #174a7e;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #1769aa;
+    color: white;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #104b7b;
+}
+
+#taxResult {
+    color: green;
+}
+
+.property {
+    background: #eef5fc;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 7px;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 12px;
+        padding: 16px;
+    }
+}
